@@ -4,14 +4,13 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc -b && vite build",
-    "lint": "eslint .",
-    "preview": "vite preview",
     "dev": "storybook dev -p 6006",
-    "build": "storybook build"
+    "build": "storybook build",
+    "lint": "eslint .",
+    "preview": "vite preview"
   },
   "dependencies": {
+    "@ignite-ui/docs": "file:",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
